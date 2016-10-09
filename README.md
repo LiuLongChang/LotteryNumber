@@ -1,0 +1,2 @@
+# LotteryNumber
+AutoGenerateLotteryNumber.&amp;SixYao.
