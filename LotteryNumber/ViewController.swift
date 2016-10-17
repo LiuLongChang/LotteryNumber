@@ -64,7 +64,7 @@ class ViewController: UIViewController {
             nArray.add(n1);nArray.add(n2);nArray.add(n3);nArray.add(n4);nArray.add(n5);nArray.add(n6);
             m  = Int(arc4random()%17)
 
-            for i in 0..<nArray.count-1 {
+            for i in 0..<nArray.count {
 
                 let left : Int = nArray[i] as! Int
                 if left == 0 {

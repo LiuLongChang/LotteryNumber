@@ -322,6 +322,7 @@
 				94E66F051DA9D31F006C5387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

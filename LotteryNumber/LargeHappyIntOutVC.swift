@@ -42,7 +42,7 @@ class LargeHappyIntOutVC: ViewController {
             m0  = Int(arc4random()%13)
             m1 = Int(arc4random()%13)
 
-            for i in 0..<nArray.count-1 {
+            for i in 0..<nArray.count {
 
                 let left : Int = nArray[i] as! Int
                 if left == 0 {
