@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94B235B11DBDC97B003383A0 /* Number3DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B235B01DBDC97B003383A0 /* Number3DVC.swift */; };
 		94E66EF51DA9D31E006C5387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E66EF41DA9D31E006C5387 /* AppDelegate.swift */; };
 		94E66EF71DA9D31E006C5387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E66EF61DA9D31E006C5387 /* ViewController.swift */; };
 		94E66EFA1DA9D31E006C5387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E66EF81DA9D31E006C5387 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94B235B01DBDC97B003383A0 /* Number3DVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number3DVC.swift; sourceTree = "<group>"; };
 		94E66EF11DA9D31E006C5387 /* LotteryNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E66EF41DA9D31E006C5387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E66EF61DA9D31E006C5387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				94E66F061DAA1386006C5387 /* LotteryTypeVC.swift */,
 				94E66F081DAA1715006C5387 /* TwoColorBallVC.swift */,
 				94E66F0A1DAA174E006C5387 /* LargeHappyIntOutVC.swift */,
+				94B235B01DBDC97B003383A0 /* Number3DVC.swift */,
 				94E66EF81DA9D31E006C5387 /* Main.storyboard */,
 				94E66EFB1DA9D31F006C5387 /* Assets.xcassets */,
 				94E66EFD1DA9D31F006C5387 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				94E66EF71DA9D31E006C5387 /* ViewController.swift in Sources */,
 				94E66F071DAA1386006C5387 /* LotteryTypeVC.swift in Sources */,
 				94E66EF51DA9D31E006C5387 /* AppDelegate.swift in Sources */,
+				94B235B11DBDC97B003383A0 /* Number3DVC.swift in Sources */,
 				94E66F0B1DAA174E006C5387 /* LargeHappyIntOutVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

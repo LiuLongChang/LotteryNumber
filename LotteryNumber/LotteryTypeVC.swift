@@ -19,6 +19,19 @@ class LotteryTypeVC: UIViewController {
         navigationController?.navigationBar.barTintColor = UIColor.init(red: 249/255, green: 219/255, blue: 127/255, alpha: 1)
 
 
+        let btnM1 = UIButton.init(type: .custom)
+        btnM1.setTitle("Number 3D !", for: .normal)
+        btnM1.addTarget(self, action: #selector(LotteryTypeVC.typeBtnAction(btn:)), for: .touchUpInside)
+        btnM1.frame = CGRect.init(x: kScreenWidth/2-150, y: kScreenHeight/2-150, width: 300, height: 50)
+        view.addSubview(btnM1);btnM1.tag = 99;
+        btnM1.backgroundColor = UIColor.black
+        btnM1.setTitleColor(UIColor.yellow, for: .normal)
+        btnM1.layer.cornerRadius = 5
+        btnM1.layer.borderWidth = 5
+        btnM1.layer.borderColor = UIColor.white.cgColor
+
+
+
         let btn0 = UIButton.init(type: .custom)
         btn0.setTitle("Two Color Ball !", for: .normal)
         btn0.addTarget(self, action: #selector(LotteryTypeVC.typeBtnAction(btn:)), for: .touchUpInside)
@@ -58,6 +71,11 @@ class LotteryTypeVC: UIViewController {
 
 
     func typeBtnAction(btn:UIButton){
+
+        if btn.tag == 99 {
+            let vc = Number3DVC()
+            navigationController?.pushViewController(vc, animated: true)
+        }
 
         if btn.tag == 100 {
             NSLog("Two Color Ball")
